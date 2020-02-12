@@ -1,0 +1,37 @@
+* ここからメディアクエリです */
+/* 外面幅を変えると下記の内容で変化するはず */
+@media (max-width: 1000px) {
+  .teitel {
+    color: blue;
+    }
+  .btnn {
+    width :40%;
+  }
+  .btnn {
+    height: 150px;
+    line-height: 150px;
+    font-size: 5px;
+    width: 150px;
+  }
+}
+@media (max-width:670px) {
+  .teitel {
+    color: red;
+  }
+  .btnn {
+    height: 100px;
+    line-height: 100px;
+    font-size: 5px;
+    width: 150px;
+  }
+  .main-btn2 p {
+    font-size: 15px;
+  }
+}
+
+
+@media (max-width:1150px) {
+  .main3-text p {
+    font-size: 16px;
+  }
+}
